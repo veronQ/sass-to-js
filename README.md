@@ -1,11 +1,11 @@
 # sass-to-js
-How to export Sass variables to JavaScript, 
+How to export Sass variables to JavaScript
 
 ## tl;dr
 Any symbol (*key: value*) can be exported from Sass to JavaScript using the `:export` pseudoselector.  
 It is the equivalent of `module.exports` in JavaScript.  
 
-This is made possible thanks to **ICSS**.
+This is made possible thanks to [**ICSS**](https://github.com/css-modules/icss).
 
 **index.scss**
 ```scss
@@ -25,7 +25,7 @@ $theme-colors: (
 ```js
 import colors from './index.scss'
 
-console.log(colors); // { anotherColor: "#FFF", someColor: "#000" }
+console.log(colors); // { someColor: "#000", anotherColor: "#FFF" }
 ```
 
 ## Must-read
