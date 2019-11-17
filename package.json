@@ -1,8 +1,8 @@
 {
-  "name": "sass-to-js",
-  "version": "1.0.0",
-  "description": "How to export Sass variables to JavaScript",
   "private": true,
+  "name": "sass-to-js",
+  "version": "1.0.1",
+  "description": "How to export Sass variables to JavaScript",
   "scripts": {
     "dev": "webpack --watch --mode development"
   },
